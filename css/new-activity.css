@@ -1,0 +1,187 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #f1f0eb;
+}
+h3, p {
+    margin:0;
+    padding:0;
+}
+img {
+	vertical-align: top;
+}
+button {
+    border:none;
+    outline: none;
+}
+
+
+
+@font-face {
+      font-family: 'Intro';
+      src: url('../fonts/Intro/Intro.eot') format('eot');
+      src: url('../fonts/Intro/Intro.eot?iefix') format('embedded-opentype'),
+            url('../fonts/Intro/Intro.woff') format('woff'),
+            url('fonts/Intro/Intro.ttf') format('truetype'),
+	   url('../fonts/Intro/Intro.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+   }
+
+
+
+
+/* 头部区域 */
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 1.306667rem;
+    
+}
+
+.header-wrap {
+    width: 9.2rem;
+}
+
+.detail-hd span{
+	float:left;
+	height:1.306667rem;
+	line-height:1.306667rem;
+	width:33.333%;
+}
+.detail-hd span.title {
+	font-size:0.426667rem;
+	color:#383838;
+	text-align:center;
+}
+.detail-hd span.back {
+	background:url('../img/btn-back.png') no-repeat 0 0.493333rem;
+	background-size:0.4rem 0.32rem;
+}
+.detail-hd span.back a {
+   	display:block;
+   	width:0.8rem;
+   	height:1.28rem;
+}
+.detail-hd span.cart {
+	background:url('../img/detail-cart.png') no-repeat right 0.413333rem;
+	background-size:0.6rem 0.48rem;
+	text-align:right;
+}
+.detail-hd span.cart a {
+	display:block;
+	height:1.28rem;
+	width:0.8rem;
+	float:right;
+}
+
+
+.activity-main {
+	padding:1.306667rem 0 0;
+	width:10.0rem;
+	margin:0 auto;
+}
+
+
+
+
+/* 活动banner区域 */
+
+.activity-banner {
+	width:100%;
+	background:url('../img/activity-banner.jpg') no-repeat;
+	background-size:10.0rem 4.04rem;
+	height:4.04rem;
+	
+}
+
+
+
+
+
+/* 活动商品公用样式模块 */
+.product {
+	width:100%;
+	margin-bottom:0.453333rem;
+}
+.product .banner {
+	height:4.266667rem;
+	width:100%;
+}
+
+.product .product-list {
+	width:100%;
+	margin-top:-0.266667rem;
+}
+.product .product-list .list {
+	display:block;
+	width:50%;
+	box-sizing: border-box;
+}
+.product .product-list .list:nth-child(odd) {
+	float:left;
+	padding-right:0.066667rem;
+}
+.product .product-list .list:nth-child(even) {
+	float:right;
+	padding-left:0.066667rem;
+}
+.product .product-list .list img {
+	width:4.933333rem;
+	height:5.2rem;
+}
+.product .product-list .list h3 {
+	width:100%;
+	text-align: center;
+	height:0.426667rem;
+	line-height:0.426667rem;
+	font-weight: normal;
+	color:#514e49;
+	font-size:0.266667rem;
+}
+.product .product-list .list h3.main-title {
+	margin-top:0.373333rem;
+}
+.product .product-list .list>span {
+	color:#b31840;
+	font-size:0.213333rem;
+	display:block;
+	width:100%;
+	text-align:center;
+	margin:0.266667rem 0 0.453333rem;
+}
+.product .product-list .list>span .price {
+	font-family: 'Intro';
+	font-size:0.4rem;
+	font-weight:900;
+}
+
+.product .more {
+	width:2.226667rem;
+	margin:0 auto;
+}
+.product .more a {
+	display:block;
+	width:2.146667rem;
+	height:0.666667rem;
+	border:3px solid #b31840;
+	text-align:center;
+	line-height:0.666667rem;
+}
+
+
+/* 商品区域banner图 */
+
+.clothes .banner {
+	background:url('../img/close-banner.jpg') no-repeat;	
+}
+.jiaju .banner {
+	background:url('../img/jiaju-banner.jpg') no-repeat;
+}
+.life .banner {
+	background:url('../img/life-banner.jpg') no-repeat;
+}
+.clothes .banner ,.jiaju .banner ,.life .banner  {
+	background-size:10.0rem 4.266667rem;
+}
